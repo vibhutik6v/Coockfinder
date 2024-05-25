@@ -1,0 +1,123 @@
+*
+{
+    font-family: cursive;
+    margin:0;
+    padding: 0;
+}
+section
+{
+    background-image:linear-gradient(rgba(223, 79, 35, 0.5),rgba(26, 48, 95, 0.5),rgba(8, 10, 15, 0.8)), url(../baby_chef.jpg);
+    height: 100%;
+    background-size:cover;
+    background-position: center;
+    margin-top: 0vw;
+
+}
+
+body
+{
+    box-sizing: border-box;
+    
+    
+    height: 100%;
+    background-size:cover;
+    background-position: center;
+    margin-top: 0px;
+    position: fixed;
+  
+ 
+  
+  width: 100%;
+  padding: 0px;
+ 
+}
+body .menubar
+{
+    float: right;
+    
+    
+}
+
+body .menubar ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 0.75vw;
+    
+}
+body .menubar ul li
+{
+    display: inline;
+    padding-right: 0.675vw ;
+    
+  
+}
+
+body .menubar ul li a
+{
+    cursor: pointer;
+    text-decoration: none;
+    background-color: rgb(255, 255, 255);
+    
+    color: rgb(0, 0, 0);
+    font-family: 'Courier New', Courier, monospace;
+   
+    
+    font-size: 1.5vw;
+    padding-left: 0.15vw;
+    padding-right: 0.15vw;
+    transition: 0.8s ease;
+    text-align: center;
+    opacity: 0.3;
+
+    border: 1px double transparent;
+    border-radius: 10% 0% 10% 0%;
+    
+}
+body .menubar ul li a:hover
+{
+    background-color: rgba(0, 0, 0, 0.9);
+    color:rgba(255, 255, 255, 1);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-style: groove hidden double hidden;
+    border-color: rgba(255, 255, 255, 0.856);
+    border-radius: 10% 0% 10% 0%;
+    opacity: 1;
+    border-width: 0.525vw;
+    
+    
+    
+}
+section .card2
+{
+    padding-top: 7%;
+    padding-left: 25%;
+    padding-right: 25%;
+    padding-bottom: 7%;
+    height: auto;
+    width: 100%;
+    opacity: 0.7;
+}
+section .card2:hover
+{
+    padding-top: 7%;
+    padding-left: 25%;
+    padding-right: 25%;
+    padding-bottom: 7%;
+    height: auto;
+    width: 100%;
+    opacity: 1;
+}
+section .card2 .head
+{
+background-color: rgb(67, 245, 31);
+height: auto;
+  width: 50%;
+  padding-top: 0.225vw;
+  padding-left: 1vw;
+  border-radius: 0.375vw 0.525vw 0px 0px;
+  border-style: inset groove hidden hidden;
+  display: inline-block;  
+}
+section .card2 .regis{
+    padding-left: 2vw;
+}
